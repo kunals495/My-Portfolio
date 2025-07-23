@@ -5,7 +5,7 @@ import Skills from "./Skills";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import IIIT_KOTA from "../assets/IIIT_Kota.png";
+
 
 import {
   Hackthechain,
