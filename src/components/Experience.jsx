@@ -62,7 +62,7 @@ const Experience = () => {
               img={KDE}
               title="Nullclass Edutech"
               subtitle="Software Developer Intern"
-              date="2 Month remote"
+              date="3 Month remote"
               para={[
                 "Part of a developer team working on an online meeting platform like Zoom.",
                 "Contributing to the development of lecture-conducting features.",
