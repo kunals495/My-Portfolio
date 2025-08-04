@@ -20,7 +20,7 @@ const About = () => {
             Kunal Singh
           </span>
           <p className="text-xl max-sm:text-base bg-clip-text text-transparent bg-gradient-to-r from-[#00040f] to-slate-500 dark:from-slate-500 dark:to-slate-200 max-w-[470px] mt-5">
-            Full Stack Developer
+            Software Engineer
             <br />
             Proficient in Programming Languages and Technologies and have ability to solve real world problems
           </p>
@@ -37,11 +37,8 @@ const About = () => {
 
         {/* Profile Image and Socials */}
         <div className="flex-1 min-w-0 flex flex-col items-center max-sm:flex max-sm:justify-center">
-          <img
-            src={profileImage}
-            alt="Kunal Singh"
-            className="w-[300px] h-[300px] max-sm:w-[200px] max-sm:h-[200px] rounded-full object-cover border-4 border-blue-600 dark:border-cyan-500 shadow-lg"
-          />
+          
+          
           <div className="SOCIALS text-[#00040f] dark:text-white text-2xl flex gap-7 mt-5 max-sm:justify-evenly">
             <a
               href="https://github.com/kunals495"

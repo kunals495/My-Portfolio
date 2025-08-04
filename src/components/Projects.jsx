@@ -51,10 +51,7 @@ const Projects = () => {
             title="CONVO: Article Based Query Resolver AI"
             para="Developed a full-stack web application that fetches content from URLs and leverages large language
 models to answer user queries or generate summaries with contextual accuracy.
-Integrated web scraping, LangChain pipelines, and FastAPI with a React-based frontend to deliver
-seamless, AI-driven article comprehension.
-• Optimized to process articles in under 30 seconds and offers 1,048,576 input tokens and 8,192 output
-tokens, enabling detailed analysis of lengthy documents.
+
 
 "
             img={Portfolio}
@@ -87,9 +84,8 @@ tokens, enabling detailed analysis of lengthy documents.
           <Project_prop
             title="Fundraiser: Blockchain Based Crowdfunding Platform"
             para="A blockchain-based crowdfunding platform that allows users to create, manage, and contribute to
-fundraising campaigns securely.
-• Designed and implemented smart contracts in Solidity, facilitating transparent transactions and ensuring
-funds are released only upon meeting predefined campaign goals."
+fundraising campaigns securely."
+
             img={Rocket}
             link="ok"
             github_link="https://github.com/kunals495/Blockcahin-Based-Crowdfunding-Platform"
@@ -118,12 +114,8 @@ funds are released only upon meeting predefined campaign goals."
            <Project_prop
             title="B3 Shareholder Position Retrieval Tool | Hackathon Project"
             para="A Streamlit-based web application that fetches shareholder data from the Brazilian Stock Exchange (B3)
-using an uploaded Excel file containing multiple company ‘Ticker’ symbols and their corresponding ‘CVM
-Codes’.
-• The Tool fetches data through B3's public API, processes it, and allows users to download the results in a
-well-formatted Excel sheet which includes the percentage of shares held by multiple companies.
-• It Reduced data entry time from hours to under a minute for 300+ tickers and saved 5+ hours of manual
-work."
+using an uploaded Excel file containing multiple company 
+"
             img={GPT4}
             link="ok"
             github_link="https://github.com/kunals495/ShareHolder-Position-Retrieval-Tool"
@@ -153,8 +145,7 @@ work."
             title="Attirent: Rental Cloth Platform | Freelance Project"
             para="A dynamic web application that allows users to rent clothing for special occasions, with features like
 category-wise browsing, secure checkout, and rental duration selection.
-• Implemented user authentication, order tracking, and integrated an admin panel for managing inventory
-and orders."
+"
             img={WellBeing}
             link="ok"
             github_link="https://github.com/kunals495/Rental-Cloth-Website"

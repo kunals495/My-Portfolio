@@ -38,11 +38,9 @@ const Project_prop = (props) => {
         </div>
       </div>
 
-      <ul className="list-disc list-inside text-slate-500 text-base mt-5 px-5 flex-1 overflow-y-auto">
-        {points.map((point, index) => (
-          <li key={index}>{point}</li>
-        ))}
-      </ul>
+      <div className="text-slate-500 text-base mt-5 px-5 flex-1 overflow-y-auto break-words">
+        {points.join("\n")}
+      </div>
 
       <div className="LINKS flex gap-2 text-[#00040f] dark:text-slate-200 p-2 pl-5 text-2xl">
         <a href={props.github_link} target="_blank" rel="noreferrer">

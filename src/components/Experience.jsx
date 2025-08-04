@@ -6,7 +6,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
-
 import {
   Hackthechain,
   GSSOC,
@@ -38,30 +37,37 @@ const Experience = () => {
             data-aos="zoom-in-up"
           >
             <Exp_prop
+              img={Hackthechain}
+              title="WonderBiz Technologies"
+              subtitle="Software Engineer"
+              date="July 2025 - Present"
+              para={[
+                "Working as a Full Stack Developer focusing on C#, ASP.NET Core, ASP.NET Web API, and SQL Server.",
+                "Developing and maintaining scalable web applications and APIs.",
+                "Contributing to both frontend and backend with clean, efficient, and testable code.",
+              ]}
+            />
+            <Exp_prop
               img={Oppia}
               title="Freelancer"
               subtitle="Full Stack Developer"
-              date="January 2024- Present"
-              para="- Working as a freelancer to develop and deploy projects as per client requirements.
-                     - I already worked on rental cloth website in which developed authentication and authorization system and Integrated this website with razorpay API payment gateway."
-              
+              date="January 2024 - Present"
+              para={[
+                "Developing and deploying projects based on client requirements.",
+                "Worked on a rental cloth website with authentication and authorization systems.",
+                "Integrated the website with Razorpay API payment gateway.",
+              ]}
             />
             <Exp_prop
               img={KDE}
               title="Nullclass Edutech"
               subtitle="Software Developer Intern"
               date="2 Month remote"
-              para="- During my internship, I am a part of developer team which working on online meeting platform like zoom where nullclass can conduct their lectures.
-                    "
+              para={[
+                "Part of a developer team working on an online meeting platform like Zoom.",
+                "Contributing to the development of lecture-conducting features.",
+              ]}
             />
-              <Exp_prop
-              img={Hackthechain}
-              title="Hackathon"
-              subtitle="Team Lead"
-              date="March 2025"
-              para="- We participated in college level hackathon and deliver a python tool which perform real time web scrapping automation which is optimal solution for financial firm in a limited time."
-            />
-          
           </div>
         </div>
       </section>
